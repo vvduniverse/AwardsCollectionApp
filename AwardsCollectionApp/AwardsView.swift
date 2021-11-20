@@ -23,7 +23,7 @@ struct AwardsView: View {
                             .padding()
                             .frame(width: sideLength)
 //                            .frame(width: sideLength, height: sideLength)
-//                        Если вызвать с высотой, равной ширине, то получается шляпа... и логично, как по мне. Или нет?
+//                        Если вызвать с высотой, равной ширине, то получается шляпа... и это логично, как по мне. Или нет?
                     }
                 }
             }
@@ -31,7 +31,6 @@ struct AwardsView: View {
         }
     }
 }
-
 
 //struct AwardsView: View {
 //    let awards = Award.getAwards()
