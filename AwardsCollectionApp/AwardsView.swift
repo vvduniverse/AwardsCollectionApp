@@ -20,11 +20,9 @@ struct AwardsView: View {
                     VStack {
                         award.awardView
                         Text(award.title)
-                            .padding()
-                            .frame(width: sideLength)
-//                            .frame(width: sideLength, height: sideLength)
-//                        Если вызвать с высотой, равной ширине, то получается шляпа... и это логично, как по мне. Или нет?
                     }
+                    .padding()
+                    .frame(width: sideLength, height: sideLength)
                 }
             }
             .navigationBarTitle("Your awards: \(activeAwards.count)")
